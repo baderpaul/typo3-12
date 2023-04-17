@@ -1,0 +1,30 @@
+.submenu {
+    @extend .bg-primary;
+    font-size: $font-size-nav;
+    li {
+        &:hover {
+            li {
+                @extend .bg-primary; 
+            }
+        }
+        .active {
+            a {
+                font-weight: bold;
+                text-decoration: none;
+                border: solid red 1px;
+               /* &:hover {
+                    @extend .bg-rgba-white;
+                }*/
+            }
+        }
+        .current {
+            a {
+                font-weight: bold;
+                text-decoration: none;
+               /* &:hover {
+                    @extend .bg-rgba-white;
+                }*/
+            }
+        }
+    }
+}

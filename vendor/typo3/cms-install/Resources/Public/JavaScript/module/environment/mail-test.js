@@ -1,0 +1,13 @@
+/*
+ * This file is part of the TYPO3 CMS project.
+ *
+ * It is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License, either version 2
+ * of the License, or any later version.
+ *
+ * For the full copyright and license information, please read the
+ * LICENSE.txt file that was distributed with this source code.
+ *
+ * The TYPO3 project - inspiring people to share!
+ */
+import"bootstrap";import{AbstractInteractableModule}from"@typo3/install/module/abstract-interactable-module.js";import Modal from"@typo3/backend/modal.js";import Notification from"@typo3/backend/notification.js";import AjaxRequest from"@typo3/core/ajax/ajax-request.js";import InfoBox from"@typo3/install/renderable/info-box.js";import ProgressBar from"@typo3/install/renderable/progress-bar.js";import Severity from"@typo3/install/renderable/severity.js";import Router from"@typo3/install/router.js";class MailTest extends AbstractInteractableModule{constructor(){super(...arguments),this.selectorOutputContainer=".t3js-mailTest-output",this.selectorMailTestButton=".t3js-mailTest-execute"}initialize(e){this.currentModal=e,this.getData(),e.on("click",this.selectorMailTestButton,(e=>{e.preventDefault(),this.send()})),e.on("submit","form",(e=>{e.preventDefault(),this.send()}))}getData(){const e=this.getModalBody();new AjaxRequest(Router.getUrl("mailTestGetData")).get({cache:"no-cache"}).then((async t=>{const o=await t.resolve();!0===o.success?(e.empty().append(o.html),Modal.setButtons(o.buttons)):Notification.error("Something went wrong","The request was not processed successfully. Please check the browser's console and TYPO3's log.")}),(t=>{Router.handleAjaxError(t,e)}))}send(){this.setModalButtonsState(!1);const e=this.getModuleContent().data("mail-test-token"),t=this.findInModal(this.selectorOutputContainer),o=ProgressBar.render(Severity.loading,"Loading...","");t.empty().append(o),new AjaxRequest(Router.getUrl()).post({install:{action:"mailTest",token:e,email:this.findInModal(".t3js-mailTest-email").val()}}).then((async e=>{const o=await e.resolve();t.empty(),Array.isArray(o.status)?o.status.forEach((e=>{const o=InfoBox.render(e.severity,e.title,e.message);t.empty().append(o)})):Notification.error("Something went wrong","The request was not processed successfully. Please check the browser's console and TYPO3's log.")}),(()=>{Notification.error("Something went wrong","The request was not processed successfully. Please check the browser's console and TYPO3's log.")})).finally((()=>{this.setModalButtonsState(!0)}))}}export default new MailTest;

@@ -1,0 +1,2 @@
+# Important: This file is deprecated and will removed with EXT:c1_adaptive_images 2.0.0
+@import 'EXT:c1_adaptive_images/Configuration/TypoScript/setup.typoscript'

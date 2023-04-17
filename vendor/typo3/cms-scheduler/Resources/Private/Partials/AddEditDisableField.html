@@ -1,0 +1,9 @@
+<div class="form-section" id="task_disable_row">
+    <div class="form-group">
+        <label for="task_disable"><f:translate key="LLL:EXT:core/Resources/Private/Language/locallang_common.xlf:disable"/></label>
+        <div class="form-control-wrap">
+            <input type="hidden" name="tx_scheduler[disable]" value="0">
+            <input class="checkbox" type="checkbox" name="tx_scheduler[disable]" value="1" id="task_disable" {f:if(condition:currentData.disable,then:'checked="checked"')}>
+        </div>
+    </div>
+</div>
