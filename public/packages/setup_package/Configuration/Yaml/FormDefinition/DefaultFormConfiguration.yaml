@@ -3,11 +3,11 @@ TYPO3:
     Form:
       persistenceManager:
         allowedFileMounts:
-          10: 2:/FormsDeployment/
+          100: 2:/FormsDeployment/
         allowSaveToExtensionPaths: true
         allowDeleteFromExtensionPaths: true
         allowedExtensionPaths:
-          10: 'EXT:setup_package/Configuration/Yaml/Form/FormsActive'
+          100: 'EXT:setup_package/Configuration/Yaml/FormsActive'
         sortByKeys:
           - name
           - fileUid

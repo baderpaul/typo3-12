@@ -199,18 +199,6 @@
         <source>You can also run the check as a shell script using CLI if the processing takes longer than the PHP max_execution_time allows.</source>
         <target state="final">Sie können die Prüfung auch in einem Shell-Script mit dem Command Line Interface (CLI) durchführen, wenn die Verarbeitung länger braucht, als die max_execution_time in PHP erlaubt.</target>
       </trans-unit>
-      <trans-unit id="checkScript_check_description" resname="checkScript_check_description" approved="yes">
-        <source>To check the reference index use</source>
-        <target state="final">Um den Referenz-Index zu prüfen, führen Sie folgenden Befehl aus:</target>
-      </trans-unit>
-      <trans-unit id="checkScript_update_description" resname="checkScript_update_description" approved="yes">
-        <source>To update the reference index use</source>
-        <target state="final">Um den Referenz-Index zu aktualisieren, führen Sie folgenden Befehl aus:</target>
-      </trans-unit>
-      <trans-unit id="checkScript_moreDetails" resname="checkScript_moreDetails" approved="yes">
-        <source>For more details see</source>
-        <target state="final">Weitere Informationen unter:</target>
-      </trans-unit>
       <trans-unit id="updateRefIndex" resname="updateRefIndex" approved="yes">
         <source>Update reference index</source>
         <target state="final">Referenzindex aktualisieren</target>
@@ -350,10 +338,6 @@
       <trans-unit id="relations" resname="relations" approved="yes">
         <source>Relations</source>
         <target state="final">Verknüpfungen</target>
-      </trans-unit>
-      <trans-unit id="relations_description" resname="relations_description" approved="yes">
-        <source>This will analyze the content of the tables and check if there are 'empty' relations between records or if files are missing from their expected position.</source>
-        <target state="final">Führt eine Analyse der Datenbank-Tabellen durch und prüft, ob Verknüpfungen zwischen Einträgen ungültig sind oder Dateien an der erwarteten Position fehlen.</target>
       </trans-unit>
       <trans-unit id="select_db" resname="select_db" approved="yes">
         <source>Select fields</source>

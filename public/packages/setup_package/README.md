@@ -86,40 +86,20 @@
 * Local-System: http://typo3setup-bt.ddev.site/
 
 ## ToDoes/Probleme
-* Maskelemnte in Suche mit aufnehmen
-* Nicht mit 
-* TX FORMS muss überarbeitet werden !!!!! Dringend - Yaml stimmt so nicht mehr
-* Sollten verschiedene Layouts in einer Instance verwendet werden müssten die Navigations Sass einzeln compiliert werden.
 * LL Files BE überarbeiten + Locallang Builder richtig konfigurieren.
-* Constants überarbeiten - evt. in die config.yaml verschieben
 * Benutzer und Gruppen anlegen
-* Seitenvorlagen in EXT. Mask per Pagets. deaktivieren?
 * Lightbox mit reinem Css ersetzen
 * SVG Pfad zu sprite von fluid zu Typoscript auslagern??
 * CkEditor - ul ol Styling - Iconstyling müsste noch implementiert werden
-* Cards - Komplettverlinkung braucht ein <a> Tag - wird ohne Btn nicht erzeugt.
-* Cards müsstens eigens erstellt werden um dann unterschiedlich z.B in Bootstrap Card Groups oder in einem 
-  Cardscarousel angezeigt bzw. mehrfach verwendet werden kann.
 * Youtubevideos - Einbindung DSGVO
-* Tabs/Pills - in tab-pane paddings + margins optimieren
 * Evaluieren wie Form + Login innerhalb von Tabs + Accordion funktionieren // Accordion + Tabs werden bei Fehler geschlossen
-* Tut für Formulare
-* Tut für die Verwendung des CkEditors 
-* ke_search Language immer noch xml nicht xlf 
-* pwa_manifest mit https durch testen, Serviceworker wird noch nicht gefunden.
-* EXT: c1_adaptive_images testen.
 ## Default Extensions
-* Container 1.3 //TYPO3 v11 
-* Mask (individuelle CE) 7.0.16 / TYPO3 v11
-* News 8.6
-* Ke_Search 3.8
-* SMS Responsive Images 2.0 / TYPO3 v11
-* Cookie Consent 11.0 // dp_cookieconsent 11.0 / TYPO3 v11
-* Widgets for Dashborad 1.2.0 / TYPO3 v11
-* TYPO3 Console 6.4 / TYPO3 v11 -> wird über composer installiert -> "helhum/typo3-console": "^6.4.0",
-* datamints Locallang Builder 1.0.13 / -> nur installiert
-* luxletter 4.1
-* pwa_manifest 1.0 // noch nicht ganz ausgetestet da https local mit certificate noch fehlt
+* Container 2.1 //TYPO3 v12 
+* Mask (individuelle CE) 8.0 / TYPO3 v12
+* News 11.0
+* Ke_Search dev-master / TYPO3 v12
+* c1-adaptive-images 21.0 / TYPO3 v12
+* TYPO3 Console 8.0 / TYPO3 v12 -> wird über composer installiert -> "helhum/typo3-console": "^8.0",
 
 ## Noch fehlende Extensions TYPO3 10.4
 * femanager // PHP 7.3 ???
@@ -127,21 +107,20 @@
 ## Features/Infos - Nice to have
 * Lokale Entwicklungsumgebung mit ddev
     - https://typo3.com/blog/tutorial-get-a-local-typo3-v10-installation-with-no-effort?utm_campaign=TYPO3%20CMS%20X&utm_medium=TYPO3%20Blog&utm_source=Blog%20post%20-%20Tutorial%3A%20Get%20a%20Local%20TYPO3%20v10%20Installation%20With%20No%20Effort%21
-* BREAKING CHANGE Neue Pagination für EXT ke_search, news -> https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/ApiOverview/Pagination/Index.html
-    - https://github.com/georgringer/numbered_pagination -> neue Extension für Pagination
 * TYPO3 10.4 Siteexample -> https://github.com/o-ba/typo3v10_example_sitepackage/
-* Webpack examples
-    - https://github.com/sabbelasichon/typo3_encore
-    - https://github.com/sabbelasichon/typo3_encore_presentation/tree/mtug-presentation-june-2020
-    - https://github.com/plan2net/webp
-* Fontloader?
 * TYPO3 Demopage Code -> gitlab
     - https://gitlab.typo3.org/services/demo.typo3.org/site
 * webp - https://www.dpool.com/blog/index.php/2020/07/10/typo3-in-15-minuten-webp-faehig-machen/
-
-
 ## Input/Infos
 * https://github.com/paravista/custom_content_element
 * update 8.7 -> 10.4 
     - http://www.mtug.de/fileadmin/files/2020/mtug_2020-07-07_TYPO3-Upgrade.pdf
 * Migration Gridelements to Container da gibt es eine Ext: gridtocontainer bis TYPO3 10.4
+
+		"b13/container": "^2.1",
+		"mask/mask": "^8.0",
+		"georgringer/news": "^11.0",
+		"c1/c1-adaptive-images": "^1.0",
+		"tpwd/ke_search": "dev-master",
+		"plan2net/webp": "dev-master",
+		"techdivision/setup-package": "^2.0"

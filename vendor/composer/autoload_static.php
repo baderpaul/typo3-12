@@ -22,8 +22,8 @@ class ComposerStaticInit4984ccd5835072d4b0d336c32436e39c
         '8a197a13b1f213f3a2178168511a1b5d' => __DIR__ . '/..' . '/typo3/cms-core/Resources/PHP/GlobalDebugFunctions.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
-        'dd1a1deb4cc13744de30b80153a64818' => __DIR__ . '/..' . '/typo3/alias-loader-include.php',
         '01f368d689df9bc0e426630c0c30ad4b' => __DIR__ . '/..' . '/typo3/autoload-include.php',
+        'dd1a1deb4cc13744de30b80153a64818' => __DIR__ . '/..' . '/typo3/alias-loader-include.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -106,6 +106,7 @@ class ComposerStaticInit4984ccd5835072d4b0d336c32436e39c
             'Symfony\\Component\\RateLimiter\\' => 30,
             'Symfony\\Component\\PropertyInfo\\' => 31,
             'Symfony\\Component\\PropertyAccess\\' => 33,
+            'Symfony\\Component\\Process\\' => 26,
             'Symfony\\Component\\OptionsResolver\\' => 34,
             'Symfony\\Component\\Mime\\' => 23,
             'Symfony\\Component\\Messenger\\Bridge\\Doctrine\\' => 44,
@@ -140,6 +141,11 @@ class ComposerStaticInit4984ccd5835072d4b0d336c32436e39c
             'Masterminds\\' => 12,
             'MASK\\Mask\\' => 10,
         ),
+        'H' => 
+        array (
+            'Helhum\\Typo3Console\\' => 20,
+            'Helhum\\ConfigLoader\\' => 20,
+        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
@@ -154,6 +160,7 @@ class ComposerStaticInit4984ccd5835072d4b0d336c32436e39c
         ),
         'E' => 
         array (
+            'ErrorReporting\\' => 15,
             'Egulias\\EmailValidator\\' => 23,
         ),
         'D' => 
@@ -429,6 +436,10 @@ class ComposerStaticInit4984ccd5835072d4b0d336c32436e39c
         array (
             0 => __DIR__ . '/..' . '/symfony/property-access',
         ),
+        'Symfony\\Component\\Process\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/process',
+        ),
         'Symfony\\Component\\OptionsResolver\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/options-resolver',
@@ -539,6 +550,15 @@ class ComposerStaticInit4984ccd5835072d4b0d336c32436e39c
         array (
             0 => __DIR__ . '/..' . '/mask/mask/Classes',
         ),
+        'Helhum\\Typo3Console\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/helhum/typo3-console/Classes/Console',
+            1 => __DIR__ . '/..' . '/helhum/typo3-console/Classes/Compatibility',
+        ),
+        'Helhum\\ConfigLoader\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/helhum/config-loader/src',
+        ),
         'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
@@ -562,6 +582,10 @@ class ComposerStaticInit4984ccd5835072d4b0d336c32436e39c
         'Firebase\\JWT\\' => 
         array (
             0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
+        ),
+        'ErrorReporting\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/helhum/php-error-reporting/src',
         ),
         'Egulias\\EmailValidator\\' => 
         array (

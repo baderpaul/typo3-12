@@ -21,6 +21,6 @@ return array(
     '8a197a13b1f213f3a2178168511a1b5d' => $vendorDir . '/typo3/cms-core/Resources/PHP/GlobalDebugFunctions.php',
     'a4a119a56e50fbb293281d9a48007e0e' => $vendorDir . '/symfony/polyfill-php80/bootstrap.php',
     '667aeda72477189d0494fecd327c3641' => $vendorDir . '/symfony/var-dumper/Resources/functions/dump.php',
-    'dd1a1deb4cc13744de30b80153a64818' => $vendorDir . '/typo3/alias-loader-include.php',
     '01f368d689df9bc0e426630c0c30ad4b' => $vendorDir . '/typo3/autoload-include.php',
+    'dd1a1deb4cc13744de30b80153a64818' => $vendorDir . '/typo3/alias-loader-include.php',
 );

@@ -681,6 +681,10 @@
         <source>Could not create group</source>
         <target state="final">Konnte Gruppe nicht erstellen</target>
       </trans-unit>
+      <trans-unit id="scheduler.form.palettes.timing" resname="scheduler.form.palettes.timing" approved="yes">
+        <source>Timing</source>
+        <target state="final">Timing</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

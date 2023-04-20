@@ -20,6 +20,7 @@
 		}
 	],
 	"require": {
+		"helhum/typo3-console": "^8.0",
 		"typo3/cms-adminpanel": "^12.3",
 		"typo3/cms-backend": "^12.3",
 		"typo3/cms-belog": "^12.3",

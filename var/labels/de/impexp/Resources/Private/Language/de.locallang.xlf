@@ -227,10 +227,6 @@
         <source>Output options</source>
         <target state="final">Ausgabeoptionen:</target>
       </trans-unit>
-      <trans-unit id="makesavefo_metaData" resname="makesavefo_metaData" approved="yes">
-        <source>Meta data</source>
-        <target state="final">Metadaten:</target>
-      </trans-unit>
       <trans-unit id="makesavefo_title" resname="makesavefo_title" approved="yes">
         <source>Title</source>
         <target state="final">Titel:</target>
@@ -278,10 +274,6 @@
       <trans-unit id="importdata_file" resname="importdata_file" approved="yes">
         <source>File</source>
         <target state="final">Datei:</target>
-      </trans-unit>
-      <trans-unit id="importdata_fromPathS" resname="importdata_fromPathS" approved="yes">
-        <source>(From path: %s)</source>
-        <target state="final">(Aus Pfad: %s)</target>
       </trans-unit>
       <trans-unit id="importdata_noteNoDecompressorAvailable" resname="importdata_noteNoDecompressorAvailable" approved="yes">
         <source>NOTE: No decompressor available for compressed files!</source>

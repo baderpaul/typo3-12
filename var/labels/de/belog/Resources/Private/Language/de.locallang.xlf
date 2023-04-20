@@ -387,10 +387,6 @@
         <source>User</source>
         <target state="final">Benutzer:</target>
       </trans-unit>
-      <trans-unit id="chLog_l_error" resname="chLog_l_error" approved="yes">
-        <source>E</source>
-        <target state="final">F</target>
-      </trans-unit>
       <trans-unit id="chLog_l_action" resname="chLog_l_action" approved="yes">
         <source>Action</source>
         <target state="final">Aktion:</target>

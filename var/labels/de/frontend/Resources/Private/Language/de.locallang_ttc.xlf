@@ -863,10 +863,6 @@
         <source>Plugin</source>
         <target state="final">Plug-In:</target>
       </trans-unit>
-      <trans-unit id="sys_language_uid_formlabel" resname="sys_language_uid_formlabel" approved="yes">
-        <source>Language</source>
-        <target state="final">Sprache</target>
-      </trans-unit>
       <trans-unit id="subheader_formlabel" resname="subheader_formlabel" approved="yes">
         <source>Subheader</source>
         <target state="final">Unterüberschrift</target>

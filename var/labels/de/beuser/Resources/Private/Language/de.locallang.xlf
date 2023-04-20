@@ -27,10 +27,6 @@
         <source>IP address</source>
         <target state="final">IP-Adresse</target>
       </trans-unit>
-      <trans-unit id="backendUserListing" resname="backendUserListing" approved="yes">
-        <source>Backend User Listing</source>
-        <target state="final">Auflistung der Backend-Benutzer</target>
-      </trans-unit>
       <trans-unit id="subGroups" resname="subGroups" approved="yes">
         <source>Sub Groups</source>
         <target state="final">Untergruppen</target>
@@ -114,10 +110,6 @@
       <trans-unit id="compareUserList" resname="compareUserList" approved="yes">
         <source>Compare user list</source>
         <target state="final">Benutzerliste vergleichen</target>
-      </trans-unit>
-      <trans-unit id="compareBackendUsersGroups" resname="compareBackendUsersGroups" approved="yes">
-        <source>Compare backend usergroups</source>
-        <target state="final">Backend-Benutzergruppen vergleichen</target>
       </trans-unit>
       <trans-unit id="clearCompareList" resname="clearCompareList" approved="yes">
         <source>Clear compare list</source>
@@ -230,10 +222,6 @@
       <trans-unit id="section.compare" resname="section.compare" approved="yes">
         <source>Compare</source>
         <target state="final">Vergleich</target>
-      </trans-unit>
-      <trans-unit id="section.allUserGroups" resname="section.allUserGroups" approved="yes">
-        <source>All User Groups</source>
-        <target state="final">Alle Benutzergruppen</target>
       </trans-unit>
       <trans-unit id="compare" resname="compare" approved="yes">
         <source>Compare</source>
@@ -407,10 +395,6 @@
         <source>Filemounts</source>
         <target state="final">Verzeichnisfreigaben</target>
       </trans-unit>
-      <trans-unit id="filemount.listing" resname="filemount.listing" approved="yes">
-        <source>Available filemounts</source>
-        <target state="final">Verfügbare Verzeichnisfreigaben</target>
-      </trans-unit>
       <trans-unit id="filemount.confirm.deletion" resname="filemount.confirm.deletion" approved="yes">
         <source>Are you sure, that you want to delete the filemount "%s"?</source>
         <target state="final">Möchten Sie diese Verzeichnisfreigabe(n) "%s" wirklich löschen?</target>
@@ -426,14 +410,6 @@
       <trans-unit id="filemount.storage" resname="filemount.storage" approved="yes">
         <source>Storage</source>
         <target state="final">Speicher</target>
-      </trans-unit>
-      <trans-unit id="filemount.amount.multiple" resname="filemount.amount.multiple" approved="yes">
-        <source>Total: %s filemounts</source>
-        <target state="final">Gesamt: %s Verzeichnisfreigaben</target>
-      </trans-unit>
-      <trans-unit id="filemount.amount.singular" resname="filemount.amount.singular" approved="yes">
-        <source>Total: 1 filemount</source>
-        <target state="final">Gesamt: 1 Verzeichnisfreigabe</target>
       </trans-unit>
     </body>
   </file>

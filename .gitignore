@@ -3,5 +3,5 @@
 .history/
 public/fileadmin/
 var/
-vendor/*
+vendor/
 !vendor/techdivision/
