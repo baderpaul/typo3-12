@@ -268,8 +268,8 @@
                             "showSynchronizationLink": 0,
                             "useSortable": 1
                         },
-                        "foreign_table": "sys_file_reference",
-                        "type": "inline"
+                        "maxitems": "",
+                        "minitems": ""
                     },
                     "fullKey": "tx_mask_slideitem",
                     "imageoverlayPalette": 1,

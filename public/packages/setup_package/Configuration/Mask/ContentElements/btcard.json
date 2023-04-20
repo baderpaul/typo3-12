@@ -892,9 +892,8 @@
                             "fileUploadAllowed": 1,
                             "useSortable": 1
                         },
-                        "foreign_table": "sys_file_reference",
                         "maxitems": "1",
-                        "type": "inline"
+                        "minitems": ""
                     },
                     "fullKey": "tx_mask_cardimage",
                     "imageoverlayPalette": 1,

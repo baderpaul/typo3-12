@@ -163,6 +163,11 @@
                 },
                 "tx_mask_iconteaserdesktop": {
                     "config": {
+                        "fieldWizard": {
+                            "selectIcons": {
+                                "disabled": 1
+                            }
+                        },
                         "items": [
                             [
                                 "Ausw\u00e4hlen",
@@ -198,6 +203,11 @@
                 },
                 "tx_mask_iconteasermobile": {
                     "config": {
+                        "fieldWizard": {
+                            "selectIcons": {
+                                "disabled": 1
+                            }
+                        },
                         "items": [
                             [
                                 "Ausw\u00e4hlen",
@@ -251,6 +261,11 @@
                         "behaviour": {
                             "allowLanguageSynchronization": 1
                         },
+                        "fieldWizard": {
+                            "selectIcons": {
+                                "disabled": 1
+                            }
+                        },
                         "items": [
                             [
                                 "Klein",
@@ -281,6 +296,11 @@
                 },
                 "tx_mask_iconteasertablet": {
                     "config": {
+                        "fieldWizard": {
+                            "selectIcons": {
+                                "disabled": 1
+                            }
+                        },
                         "items": [
                             [
                                 "Ausw\u00e4hlen",
@@ -313,12 +333,19 @@
                         "appearance": {
                             "collapseAll": 1,
                             "enabledControls": {
-                                "dragdrop": 1
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
                             },
                             "expandSingle": 1,
                             "levelLinksPosition": "both",
                             "newRecordLinkTitle": "Teaseritem anlegen",
                             "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
                             "showPossibleLocalizationRecords": 1,
                             "useSortable": 1
                         },

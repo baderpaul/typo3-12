@@ -842,9 +842,8 @@
                         "behaviour": {
                             "allowLanguageSynchronization": 0
                         },
-                        "foreign_table": "sys_file_reference",
                         "maxitems": "1",
-                        "type": "inline"
+                        "minitems": ""
                     },
                     "description": "Hintergrundbild der Vorderseite",
                     "fullKey": "tx_mask_flipcard_front_image",
