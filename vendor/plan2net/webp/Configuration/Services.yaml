@@ -1,6 +1,0 @@
-services:
-  Plan2net\Webp\EventListener\AfterFileProcessing:
-    tags:
-      - name: event.listener
-        identifier: 'webp.after-file-processing'
-        event: TYPO3\CMS\Core\Resource\Event\AfterFileProcessingEvent
