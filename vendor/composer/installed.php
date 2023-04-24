@@ -3,7 +3,7 @@
         'name' => 'typo3/cms-base-distribution',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '5dcfc0cda7ef7c0d32c6790cc4355bbb9acfa68b',
+        'reference' => 'c4ce8aaebe1ca2fa0d94de31d67f024941ef00e9',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -212,9 +212,9 @@
             'dev_requirement' => false,
         ),
         'helhum/typo3-console' => array(
-            'pretty_version' => 'v8.0.0',
-            'version' => '8.0.0.0',
-            'reference' => '64a727a0538d6487d880d0feaa0a5b274874afc9',
+            'pretty_version' => 'v8.0.1',
+            'version' => '8.0.1.0',
+            'reference' => '7b0dabb9a52d4821cb4bb5242e171e27f82e9342',
             'type' => 'typo3-cms-extension',
             'install_path' => __DIR__ . '/../helhum/typo3-console',
             'aliases' => array(),
@@ -296,9 +296,9 @@
             'dev_requirement' => false,
         ),
         'phpstan/phpdoc-parser' => array(
-            'pretty_version' => '1.19.1',
-            'version' => '1.19.1.0',
-            'reference' => 'f545fc30978190a056832aa7ed995e36a66267f3',
+            'pretty_version' => '1.20.2',
+            'version' => '1.20.2.0',
+            'reference' => '90490bd8fd8530a272043c4950c180b6d0cf5f81',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpstan/phpdoc-parser',
             'aliases' => array(),
@@ -859,7 +859,7 @@
         'typo3-ter/typo3-console' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v8.0.0',
+                0 => 'v8.0.1',
             ),
         ),
         'typo3/class-alias-loader' => array(
@@ -898,7 +898,7 @@
         'typo3/cms-base-distribution' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '5dcfc0cda7ef7c0d32c6790cc4355bbb9acfa68b',
+            'reference' => 'c4ce8aaebe1ca2fa0d94de31d67f024941ef00e9',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
