@@ -5,5 +5,5 @@ public/fileadmin/
 public/packages/setup_package/Private/Scss/.sass-cache
 var/
 !/vendor/
-/vendor/
+/vendor/**
 !/vendor/techdivision/
