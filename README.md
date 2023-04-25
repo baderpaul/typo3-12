@@ -2,7 +2,7 @@
 
 * as Playground 
 
-## This stuff can you found in typo3starter_package
+## This stuff can you found in setup_package
 
 ## Environment
 * Webserver nginx/1.22.0
@@ -69,7 +69,7 @@
 * PageTs kann über Resources hinzugefügt werden.
  
 # Systemlinks mit ddev
-* Local-System: http://typo3setup-bt.ddev.site/
+* Local-System: http://typo3-12.ddev.site/
 
 ## ToDoes/Probleme/Missing
 * Benutzer und Gruppen anlegen
@@ -98,6 +98,7 @@
 * TYPO3 Demopage Code -> gitlab
     - https://gitlab.typo3.org/services/demo.typo3.org/site
 * webp - https://www.dpool.com/blog/index.php/2020/07/10/typo3-in-15-minuten-webp-faehig-machen/
+
 ## Input/Infos
 * https://github.com/paravista/custom_content_element
 * update 8.7 -> 10.4 
