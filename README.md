@@ -2,8 +2,6 @@
 
 * as Playground 
 
-## This stuff can you found in setup_package
-
 ## Environment
 * Webserver nginx/1.22.0
 * TYPO3 12.4.0
@@ -84,7 +82,7 @@
 
 ## Noch fehlende Extensions TYPO3 12.4
 * femanager // TYPO3 11.5
-* dp_cookieconsent -> derzeit noch TYPO3 11 // Fluidtemplates bereits vorhanden
+* dp_cookieconsent -> derzeit noch TYPO3 11.5 // Fluidtemplates bereits vorhanden
 
 ## Features/Infos - Nice to have
 * Lokale Entwicklungsumgebung mit ddev
