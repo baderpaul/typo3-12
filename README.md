@@ -24,7 +24,7 @@
     - 5 Optionen -> 3 Spalten 
     - 1 Option -> 4 Spalten
 * Content Elements mit fluid_styled_content  -> die css sind im Themepackage Sass includiert nicht als Typoscripttemplate!
-* CkEditor einfach konfiguriert
+* CkEditor einfach konfiguriert // Anpassung neuer ck_editor fehlt für 12.4
     - Blockstyles
     - ul ol with owen styles
     - Bootstrap Tabellen
@@ -47,25 +47,20 @@
     - Languagemenu mit TYPO3 Core Icons
     - Breadcrumb - kann für einzelne Seite deaktiviert werden
     - Socialmedianavigation/Mask - kann mit Icons oder BT Icon Font verwendet werden
-* Responsive Images mit Picture Tag/Crop Funktion und lazyloading mit https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js
+* Responsive Images mit Picture Tag + Crop Funktion + Lazyloading mit https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js
 * Default Form Modul // Setup mit HTML5 Validation default und Bootstrap Flying Labels
 * Cards/Mask - BT 5 + Images Crop Funktion
-* Flipcards/Mask
 * Accordion/Mask - BT 5
 * Tabs/Mask - BT 5
 * Slider/Mask - BT 5
-* Youtubevideo/Mask - BT 5
 * Iconteaser/Mask - BT 5 // 2 Versionen Fonticons od. Images
-* Logocarousel/Mask - Vanilla JS https://splidejs.com/
-* Cardscarousel/Mask - Vanilla JS https://splidejs.com/
-* Thumbnailcarousel/Mask - Vanilla JS https://splidejs.com/
+* Address/Mask - BT 5
+* Socialmedia/Mask - BT 5
 * Lightbox - GLightbox mit ES6 - https://github.com/biati-digital/glightbox
 * FeLogin / Templates mit fluid_styled_content
 * Suche (ke_search) - Suchbox - List - Pagination 
 * News - List - Detail - Pagination + Images Crop Funktion
 * Redirects
-* Address/Mask - BT 5
-* Cookie Consent implementiert nicht configuriert // dp_cookieconsent -> kein jquery
 * PageTs kann über Resources hinzugefügt werden.
  
 # Systemlinks mit ddev
@@ -75,21 +70,21 @@
 * Benutzer und Gruppen anlegen
 * Lightbox mit reinem Css ersetzen
 * SVG Pfad zu sprite von fluid zu Typoscript auslagern??
-* CkEditor - ul ol Styling - Iconstyling müsste noch implementiert werden. Anpassung neuer ck_editor
 * Youtubevideos - Einbindung DSGVO
 * Evaluieren wie Form + Login innerhalb von Tabs + Accordion funktionieren // Accordion + Tabs werden bei Fehler geschlossen
 
 ## Default Extensions
-* Container 2.1 //TYPO3 v12 
-* Mask (individuelle CE) 8.0 / TYPO3 v12
+* Container 2.1  
+* Mask (individuelle CE) 8.0 
 * News 11.0
-* Ke_Search dev-master / TYPO3 v12
-* c1-adaptive-images 21.0 / TYPO3 v12
-* dp_cookieconsent -> derzeit noch TYPO3 11
+* Ke_Search dev-master
+* c1-adaptive-images 21.0
+* webp
 * TYPO3 Console 8.0 / TYPO3 v12 -> wird über composer installiert -> "helhum/typo3-console": "^8.0",
 
 ## Noch fehlende Extensions TYPO3 12.4
 * femanager // TYPO3 11.5
+* dp_cookieconsent -> derzeit noch TYPO3 11 // Fluidtemplates bereits vorhanden
 
 ## Features/Infos - Nice to have
 * Lokale Entwicklungsumgebung mit ddev
