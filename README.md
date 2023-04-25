@@ -88,7 +88,7 @@
 * dp_cookieconsent -> derzeit noch TYPO3 11
 * TYPO3 Console 8.0 / TYPO3 v12 -> wird über composer installiert -> "helhum/typo3-console": "^8.0",
 
-## Noch fehlende Extensions TYPO3 10.4
+## Noch fehlende Extensions TYPO3 12.4
 * femanager // TYPO3 11.5
 
 ## Features/Infos - Nice to have
