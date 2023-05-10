@@ -1,5 +1,5 @@
 {
-    "version": "7.2.0",
+    "version": "8.1.0",
     "tables": {
         "tt_content": {
             "elements": {
@@ -100,6 +100,7 @@
                         "behaviour": {
                             "allowLanguageSynchronization": 1
                         },
+                        "items": [],
                         "type": "check"
                     },
                     "fullKey": "tx_mask_carouselcontrol",
@@ -111,6 +112,7 @@
                         "behaviour": {
                             "allowLanguageSynchronization": 1
                         },
+                        "items": [],
                         "type": "check"
                     },
                     "fullKey": "tx_mask_carouselindicator",
@@ -122,6 +124,7 @@
                         "behaviour": {
                             "allowLanguageSynchronization": 1
                         },
+                        "items": [],
                         "type": "check"
                     },
                     "fullKey": "tx_mask_indicatorthumbnail",
@@ -133,19 +136,26 @@
                         "behaviour": {
                             "allowLanguageSynchronization": 1
                         },
+                        "fieldWizard": {
+                            "selectIcons": {
+                                "disabled": 1
+                            }
+                        },
                         "items": [
-                            [
-                                "slide",
-                                "1",
-                                "",
-                                ""
-                            ],
-                            [
-                                "fade",
-                                "2",
-                                "",
-                                ""
-                            ]
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "slide",
+                                "value": "1"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "fade",
+                                "value": "2"
+                            }
                         ],
                         "renderType": "selectMultipleSideBySide",
                         "type": "select"
@@ -159,12 +169,19 @@
                         "appearance": {
                             "collapseAll": 1,
                             "enabledControls": {
-                                "dragdrop": 1
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
                             },
                             "expandSingle": 1,
                             "levelLinksPosition": "top",
                             "newRecordLinkTitle": "Datensatz anlegen",
                             "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
                             "showPossibleLocalizationRecords": 1,
                             "useSortable": 1
                         },
@@ -261,6 +278,15 @@
                     "allowedFileExtensions": "gif,jpg,jpeg,tif,tiff,bmp,pcx,tga,png,pdf,ai,svg,webp",
                     "config": {
                         "appearance": {
+                            "elementBrowserEnabled": 1,
+                            "enabledControls": {
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "sort": 0
+                            },
                             "expandSingle": 1,
                             "fileUploadAllowed": 1,
                             "showAllLocalizationLink": 1,
@@ -301,12 +327,19 @@
                         "appearance": {
                             "collapseAll": 0,
                             "enabledControls": {
-                                "dragdrop": 1
+                                "delete": 1,
+                                "dragdrop": 1,
+                                "hide": 1,
+                                "info": 1,
+                                "localize": 1,
+                                "new": 1,
+                                "sort": 1
                             },
                             "expandSingle": 1,
                             "levelLinksPosition": "top",
                             "newRecordLinkTitle": "Datensatz anlegen",
                             "showAllLocalizationLink": 1,
+                            "showNewRecordLink": 1,
                             "showPossibleLocalizationRecords": 1,
                             "showSynchronizationLink": 1,
                             "useSortable": 1
@@ -377,18 +410,16 @@
                 },
                 "tx_mask_cta_target": {
                     "config": {
+                        "allowedTypes": [
+                            "page",
+                            "file",
+                            "url",
+                            "record"
+                        ],
                         "behaviour": {
                             "allowLanguageSynchronization": 1
                         },
-                        "fieldControl": {
-                            "linkPopup": {
-                                "options": {
-                                    "blindLinkOptions": "mail,folder,telephone"
-                                }
-                            }
-                        },
-                        "renderType": "inputLink",
-                        "type": "input"
+                        "type": "link"
                     },
                     "description": "Linkziel ausw\u00e4hlen",
                     "fullKey": "tx_mask_cta_target",

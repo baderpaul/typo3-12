@@ -1,5 +1,5 @@
 {
-    "version": "7.2.0",
+    "version": "8.1.0",
     "tables": {
         "tt_content": {
             "elements": {
@@ -103,48 +103,55 @@
                 "tx_mask_selectsocialmedia": {
                     "config": {
                         "items": [
-                            [
-                                "Ausw\u00e4hlen",
-                                "",
-                                "",
-                                ""
-                            ],
-                            [
-                                "1",
-                                "facebook",
-                                "",
-                                ""
-                            ],
-                            [
-                                "2",
-                                "twitter",
-                                "",
-                                ""
-                            ],
-                            [
-                                "3",
-                                "youtube",
-                                "",
-                                ""
-                            ],
-                            [
-                                "4",
-                                "instagram",
-                                "",
-                                ""
-                            ],
-                            [
-                                "5",
-                                "linkedin",
-                                "",
-                                ""
-                            ],
-                            [
-                                "6",
-                                "whatsapp",
-                                "",
-                                ""
-                            ]
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Ausw\u00e4hlen",
+                                "value": ""
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "1",
+                                "value": "facebook"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "2",
+                                "value": "twitter"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "3",
+                                "value": "youtube"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "4",
+                                "value": "instagram"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "5",
+                                "value": "linkedin"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "6",
+                                "value": "whatsapp"
+                            }
                         ],
                         "maxitems": "1",
                         "renderType": "selectSingle",
@@ -160,15 +167,12 @@
                 },
                 "tx_mask_socialmedialink": {
                     "config": {
-                        "fieldControl": {
-                            "linkPopup": {
-                                "options": {
-                                    "blindLinkOptions": "folder,file,mail,page"
-                                }
-                            }
-                        },
-                        "renderType": "inputLink",
-                        "type": "input"
+                        "allowedTypes": [
+                            "url",
+                            "record",
+                            "telephone"
+                        ],
+                        "type": "link"
                     },
                     "fullKey": "tx_mask_socialmedialink",
                     "inlineParent": "tx_mask_socialmedia",

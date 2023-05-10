@@ -1,4 +1,5 @@
 <?php
+/*
 return [
     'icon-1' => [
         'provider' => \TYPO3\CMS\Core\Imaging\IconProvider\FontawesomeIconProvider::class,
@@ -14,3 +15,4 @@ return [
         'source' => 'EXT:my_extension/Resources/Public/Icons/onecol.png'
     ],
 ];
+*/

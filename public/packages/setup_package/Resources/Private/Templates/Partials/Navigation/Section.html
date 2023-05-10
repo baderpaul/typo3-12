@@ -2,11 +2,11 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <f:for each="{menuSection}" as="page">
                 <f:if condition="{page.content}">
-                    <ul class="navbar-nav flex-grow-0 flex-lg-grow-1 justify-content-lg-center list-unstyled section-nav px-20 px-md-0 mt-20 mt-md-0 toggle-menu">
+                    <ul class="navbar-nav flex-grow-0 flex-lg-grow-1 justify-content-lg-center list-unstyled section-nav px-20 px-md-0 mt-20 mt-md-0 toggle-menu metismenu" id="menu"">
                         <f:for each="{page.content}" as="element" iteration="i">
                             <f:if condition="{element.data.header}">
                                 <li class="list-inline-item {f:if(condition:i.isLast, then: 'me-md-0', else: 'me-md-30')}">
-                                    <a href="#c{element.data.uid}"{f:if(condition: page.target, then: ' target="{page.target}"')} 
+                                    <a href="#c{element.data.uid}" {f:if(condition: page.target, then: ' target="{page.target}')} 
                                     title="{element.data.header}" 
                                     class="d-inline-block position-relative text-uppercase my-10 my-md-0">
                                     {element.data.header}
@@ -17,6 +17,7 @@
                     </ul>
                 </f:if>
         </f:for>
+       
     </div>
         <f:asset.script identifier="section-menu">
                 const anchorLinks = document.querySelectorAll(".section-nav .list-inline-item a");
@@ -37,5 +38,5 @@
                 }
             </f:asset.script>
 
-
+            
 </html>

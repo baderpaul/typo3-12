@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:typo3starter_package/Resources/Private/Language/locallang_be" date="2021-06-2313:37:02Z" product-name="typo3starter_package">
+  <file source-language="en" datatype="plaintext" original="EXT:setup_package/Resources/Private/Language/locallang_be" date="2021-06-2313:37:02Z" product-name="typo3starter_package">
     <header>
       <!--This translation file was generated automatically by the "datamints_locallang_builder" extension. Please note that changes to this file can be lost the next time someone triggers an export in the TYPO3 Backend-module-->
     </header>

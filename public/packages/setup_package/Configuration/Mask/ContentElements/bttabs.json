@@ -1,5 +1,5 @@
 {
-    "version": "7.2.0",
+    "version": "8.1.0",
     "tables": {
         "tt_content": {
             "elements": {
@@ -74,18 +74,20 @@
                 "tx_mask_tabdisplay": {
                     "config": {
                         "items": [
-                            [
-                                "Tabs",
-                                "1",
-                                "",
-                                ""
-                            ],
-                            [
-                                "Pills",
-                                "2",
-                                "",
-                                ""
-                            ]
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Tabs",
+                                "value": "1"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Pills",
+                                "value": "2"
+                            }
                         ],
                         "renderType": "selectSingle",
                         "type": "select"
@@ -134,7 +136,7 @@
             "tca": {
                 "tx_mask_tab": {
                     "config": {
-                        "eval": "required",
+                        "required": 1,
                         "size": "45",
                         "type": "input"
                     },

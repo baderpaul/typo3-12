@@ -10,6 +10,7 @@
 
 ## Setup Infos
 * kein jQuery
+
 ## Instance Defaults 
 * Sass/Css mit Bootstrap 5.3
     - Sticky Footer Bootstraptemplate

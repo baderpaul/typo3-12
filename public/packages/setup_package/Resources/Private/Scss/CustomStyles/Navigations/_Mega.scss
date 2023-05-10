@@ -127,9 +127,18 @@
   }
 }
 
-
 @include media-breakpoint-up(lg) {
   .toggle-menu li:hover ul.mm-collapse:not(.mm-show) {
     padding: 0 350px 30px 350px !important;
+  }
+}
+
+// overrite margin right for section nav items
+.section-nav.toggle-menu {
+  .list-inline-item {
+  
+    &:not(:last-child) {
+      margin-right: 1.875rem;
+    }
   }
 }

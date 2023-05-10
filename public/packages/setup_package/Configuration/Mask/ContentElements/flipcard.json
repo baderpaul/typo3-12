@@ -1,5 +1,5 @@
 {
-    "version": "7.2.0",
+    "version": "8.1.0",
     "tables": {
         "tt_content": {
             "elements": {
@@ -205,24 +205,27 @@
                             }
                         },
                         "items": [
-                            [
-                                "Ausw\u00e4hlen",
-                                "",
-                                "",
-                                ""
-                            ],
-                            [
-                                "3",
-                                "row-cols-lg-3",
-                                "",
-                                ""
-                            ],
-                            [
-                                "4",
-                                "row-cols-lg-4",
-                                "",
-                                ""
-                            ]
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Ausw\u00e4hlen",
+                                "value": ""
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "3",
+                                "value": "row-cols-lg-3"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "4",
+                                "value": "row-cols-lg-4"
+                            }
                         ],
                         "renderType": "selectSingle",
                         "type": "select"
@@ -252,30 +255,34 @@
                             }
                         },
                         "items": [
-                            [
-                                "Ausw\u00e4hlen",
-                                "",
-                                "",
-                                ""
-                            ],
-                            [
-                                "2",
-                                "row-cols-md-2",
-                                "",
-                                ""
-                            ],
-                            [
-                                "3",
-                                "row-cols-md-3",
-                                "",
-                                ""
-                            ],
-                            [
-                                "4",
-                                "row-cols-md-4",
-                                "",
-                                ""
-                            ]
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Ausw\u00e4hlen",
+                                "value": ""
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "2",
+                                "value": "row-cols-md-2"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "3",
+                                "value": "row-cols-md-3"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "4",
+                                "value": "row-cols-md-4"
+                            }
                         ],
                         "renderType": "selectSingle",
                         "type": "select"
@@ -305,30 +312,34 @@
                             }
                         },
                         "items": [
-                            [
-                                "Ausw\u00e4hlen",
-                                "",
-                                "",
-                                ""
-                            ],
-                            [
-                                "1",
-                                "row-cols-sm-1",
-                                "",
-                                ""
-                            ],
-                            [
-                                "2",
-                                "row-cols-sm-2",
-                                "",
-                                ""
-                            ],
-                            [
-                                "3",
-                                "row-cols-sm-3",
-                                "",
-                                ""
-                            ]
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Ausw\u00e4hlen",
+                                "value": ""
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "1",
+                                "value": "row-cols-sm-1"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "2",
+                                "value": "row-cols-sm-2"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "3",
+                                "value": "row-cols-sm-3"
+                            }
                         ],
                         "renderType": "selectSingle",
                         "type": "select"
@@ -358,30 +369,34 @@
                             }
                         },
                         "items": [
-                            [
-                                "Ausw\u00e4hlen",
-                                "",
-                                "",
-                                ""
-                            ],
-                            [
-                                "3",
-                                "row-cols-xl-3",
-                                "",
-                                ""
-                            ],
-                            [
-                                "4",
-                                "row-cols-xl-4",
-                                "",
-                                ""
-                            ],
-                            [
-                                "5",
-                                "row-cols-xl-5",
-                                "",
-                                ""
-                            ]
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Ausw\u00e4hlen",
+                                "value": ""
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "3",
+                                "value": "row-cols-xl-3"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "4",
+                                "value": "row-cols-xl-4"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "5",
+                                "value": "row-cols-xl-5"
+                            }
                         ],
                         "renderType": "selectSingle",
                         "type": "select"
@@ -411,30 +426,34 @@
                             }
                         },
                         "items": [
-                            [
-                                "Ausw\u00e4hlen",
-                                "",
-                                "",
-                                ""
-                            ],
-                            [
-                                "1",
-                                "row-cols-1",
-                                "",
-                                ""
-                            ],
-                            [
-                                "2",
-                                "row-cols-2",
-                                "",
-                                ""
-                            ],
-                            [
-                                "3",
-                                "row-cols-3",
-                                "",
-                                ""
-                            ]
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Ausw\u00e4hlen",
+                                "value": ""
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "1",
+                                "value": "row-cols-1"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "2",
+                                "value": "row-cols-2"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "3",
+                                "value": "row-cols-3"
+                            }
                         ],
                         "renderType": "selectSingle",
                         "type": "select"
@@ -464,30 +483,34 @@
                             }
                         },
                         "items": [
-                            [
-                                "Ausw\u00e4hlen",
-                                "",
-                                "",
-                                ""
-                            ],
-                            [
-                                "4",
-                                "row-cols-xxl-4",
-                                "",
-                                ""
-                            ],
-                            [
-                                "6",
-                                "row-cols-xxl-6",
-                                "",
-                                ""
-                            ],
-                            [
-                                "10",
-                                "row-cols-xxl-10",
-                                "",
-                                ""
-                            ]
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Ausw\u00e4hlen",
+                                "value": ""
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "4",
+                                "value": "row-cols-xxl-4"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "6",
+                                "value": "row-cols-xxl-6"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "10",
+                                "value": "row-cols-xxl-10"
+                            }
                         ],
                         "renderType": "selectSingle",
                         "type": "select"
@@ -547,36 +570,41 @@
                             }
                         },
                         "items": [
-                            [
-                                "Ausw\u00e4hlen",
-                                "",
-                                "",
-                                ""
-                            ],
-                            [
-                                "20px",
-                                "g-xl-20",
-                                "",
-                                ""
-                            ],
-                            [
-                                "25px",
-                                "g-xl-25",
-                                "",
-                                ""
-                            ],
-                            [
-                                "30px",
-                                "g-xl-30",
-                                "",
-                                ""
-                            ],
-                            [
-                                "40px",
-                                "g-xl-40",
-                                "",
-                                ""
-                            ]
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Ausw\u00e4hlen",
+                                "value": ""
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "20px",
+                                "value": "g-xl-20"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "25px",
+                                "value": "g-xl-25"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "30px",
+                                "value": "g-xl-30"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "40px",
+                                "value": "g-xl-40"
+                            }
                         ],
                         "renderType": "selectSingle",
                         "type": "select"
@@ -606,30 +634,34 @@
                             }
                         },
                         "items": [
-                            [
-                                "Ausw\u00e4hlen",
-                                "",
-                                "",
-                                ""
-                            ],
-                            [
-                                "10px",
-                                "g-10",
-                                "",
-                                ""
-                            ],
-                            [
-                                "15px",
-                                "g-15",
-                                "",
-                                ""
-                            ],
-                            [
-                                "20px",
-                                "g-20",
-                                "",
-                                ""
-                            ]
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Ausw\u00e4hlen",
+                                "value": ""
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "10px",
+                                "value": "g-10"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "15px",
+                                "value": "g-15"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "20px",
+                                "value": "g-20"
+                            }
                         ],
                         "renderType": "selectSingle",
                         "type": "select"
@@ -659,30 +691,34 @@
                             }
                         },
                         "items": [
-                            [
-                                "Ausw\u00e4hlen",
-                                "",
-                                "",
-                                ""
-                            ],
-                            [
-                                "15px",
-                                "g-md-15",
-                                "",
-                                ""
-                            ],
-                            [
-                                "20px",
-                                "g-md-20",
-                                "",
-                                ""
-                            ],
-                            [
-                                "25px",
-                                "g-md-25",
-                                "",
-                                ""
-                            ]
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Ausw\u00e4hlen",
+                                "value": ""
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "15px",
+                                "value": "g-md-15"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "20px",
+                                "value": "g-md-20"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "25px",
+                                "value": "g-md-25"
+                            }
                         ],
                         "renderType": "selectSingle",
                         "type": "select"
@@ -800,18 +836,17 @@
                 },
                 "tx_mask_flipcard_back_link_target": {
                     "config": {
-                        "fieldControl": {
-                            "linkPopup": {
-                                "options": {
-                                    "blindLinkOptions": "folder,telephone"
-                                }
-                            }
-                        },
+                        "allowedTypes": [
+                            "page",
+                            "file",
+                            "url",
+                            "email",
+                            "record"
+                        ],
                         "mode": 0,
                         "placeholder": "Linkziel w\u00e4hlen.",
-                        "renderType": "inputLink",
                         "size": "50",
-                        "type": "input"
+                        "type": "link"
                     },
                     "fullKey": "tx_mask_flipcard_back_link_target",
                     "inPalette": 1,

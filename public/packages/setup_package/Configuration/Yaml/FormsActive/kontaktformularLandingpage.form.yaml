@@ -69,6 +69,7 @@ renderables:
                     numbersOfColumnsToUse: '6'
               fluidAdditionalAttributes:
                 required: required
+                placeholder: ccccccccc
               validationErrorMessages:
                 -
                   code: 1221560910

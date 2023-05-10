@@ -1,5 +1,5 @@
 {
-    "version": "7.2.0",
+    "version": "8.1.0",
     "tables": {
         "tt_content": {
             "elements": {
@@ -133,7 +133,8 @@
                 "tx_mask_panel": {
                     "config": {
                         "cols": "20",
-                        "eval": "required,trim",
+                        "eval": "trim",
+                        "required": 1,
                         "rows": "3",
                         "type": "text",
                         "wrap": "virtual"

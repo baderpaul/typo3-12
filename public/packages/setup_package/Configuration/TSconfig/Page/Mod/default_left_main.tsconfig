@@ -3,7 +3,7 @@ mod {
         allowInconsistentLanguageHandling = 1
         BackendLayouts {
             default_left_main {
-                title = LLL:EXT:{$extKey}/Resources/Private/Language/locallang_be.xlf:be-layout-4
+                title = LLL:EXT:setup_package/Resources/Private/Language/locallang_be.xlf:be-layout-4
                 config {
                     backend_layout {
                         colCount = 3
@@ -12,12 +12,12 @@ mod {
                             1 {
                                 columns {
                                     1 {
-                                        name = LLL:EXT:{$extKey}/Resources/Private/Language/locallang_be.xlf:col-left
+                                        name = LLL:EXT:setup_package/Resources/Private/Language/locallang_be.xlf:col-left
                                         colPos = 1
                                         colspan = 1
                                     }
                                     2 {
-                                        name = LLL:EXT:{$extKey}/Resources/Private/Language/locallang_be.xlf:col-main
+                                        name = LLL:EXT:setup_package/Resources/Private/Language/locallang_be.xlf:col-main
                                         colPos = 0
                                         colspan = 2
                                     }
@@ -26,17 +26,17 @@ mod {
                             2 {
                                 columns {
                                     1 {
-                                        name = LLL:EXT:{$extKey}/Resources/Private/Language/locallang_be.xlf:col-footer-one
+                                        name = LLL:EXT:setup_package/Resources/Private/Language/locallang_be.xlf:col-footer-one
                                         colspan = 1
                                         colPos = 10
                                     }
                                     2 {
-                                        name = LLL:EXT:{$extKey}/Resources/Private/Language/locallang_be.xlf:col-footer-two
+                                        name = LLL:EXT:setup_package/Resources/Private/Language/locallang_be.xlf:col-footer-two
                                         colspan = 1
                                         colPos = 11
                                     }
                                     3 {
-                                        name = LLL:EXT:{$extKey}/Resources/Private/Language/locallang_be.xlf:col-footer-three
+                                        name = LLL:EXT:setup_package/Resources/Private/Language/locallang_be.xlf:col-footer-three
                                         colspan = 1
                                         colPos = 12
                                     }
@@ -45,7 +45,7 @@ mod {
                         }
                     }
                 }
-                icon = EXT:{$extKey}/Resources/Public/Icons/SVGs/Active/2-col-3-9.svg
+                icon = EXT:setup_package/Resources/Public/Icons/SVGs/Active/2-col-3-9.svg
             }
         }
     }

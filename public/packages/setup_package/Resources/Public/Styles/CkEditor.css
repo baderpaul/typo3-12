@@ -5,7 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900&display=swap');
 
-/* CkEditor backend custom styles */
+/* CkEditor styles */
 body {
     font-family: 'Open Sans', sans-serif;
     color: #444;
@@ -259,7 +259,7 @@ ul.checkmarks li:before {
     bottom: -18px;
 }
 */
-/* editor iframe styles */
+/* editor iframe styles 
 
 .cke_contents_ltr blockquote {
 	padding-left: 20px;
@@ -271,7 +271,6 @@ html.cke_editable {
 	font-size: 13px;
 	line-height: 1.6;
     border: solid black 1px ;
-	/* Fix for missing scrollbars with RTL texts. (#10488) */
 	word-wrap: break-word;
 }
 
@@ -293,3 +292,4 @@ html.cke_panel_container .cke_panel_list .cke_panel_listItem a * {
     margin: 0 !important;
     font-size: .875rem !important;
 }
+*/

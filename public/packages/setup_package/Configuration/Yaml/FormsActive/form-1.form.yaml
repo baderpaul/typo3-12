@@ -63,7 +63,7 @@ renderables:
             properties:
               fluidAdditionalAttributes:
                 required: required
-                
+                placeholder: 'Bitte Wählen'
               validationErrorMessages:
                 -
                   code: 1221560910
@@ -81,15 +81,6 @@ renderables:
               -
                 identifier: NotEmpty
           -
-            properties:
-              options:
-                mrs: Frau
-                mr: Herr
-              prependOptionLabel: 'Wählen Sie eine Anrede'
-            type: SingleSelect
-            identifier: singleselect-1
-            label: Anrede
-          -
             defaultValue: ''
             type: Text
             identifier: text-2
@@ -97,7 +88,7 @@ renderables:
             properties:
               fluidAdditionalAttributes:
                 required: required
-                
+                placeholder: Name
               validationErrorMessages:
                 -
                   code: 1221560910
@@ -122,7 +113,7 @@ renderables:
             properties:
               fluidAdditionalAttributes:
                 required: required
-                
+                placeholder: Vorname
               validationErrorMessages:
                 -
                   code: 1221560910
@@ -154,7 +145,7 @@ renderables:
                     required: required
                     minlength: '5'
                     maxlength: '5'
-                    
+                    placeholder: PLZ
                   validationErrorMessages:
                     -
                       code: 1221560910
@@ -209,7 +200,7 @@ renderables:
                 properties:
                   fluidAdditionalAttributes:
                     required: required
-                    
+                    placeholder: Ort
                   validationErrorMessages:
                     -
                       code: 1221560910
@@ -259,7 +250,7 @@ renderables:
                         numbersOfColumnsToUse: '9'
                   fluidAdditionalAttributes:
                     required: required
-                    
+                    placeholder: Straße
                   validationErrorMessages:
                     -
                       code: 1221560910
@@ -282,8 +273,6 @@ renderables:
                 identifier: text-7
                 label: 'Nr. od. Zusatz'
                 properties:
-                  fluidAdditionalAttributes:
-                    
                   gridColumnClassAutoConfiguration:
                     viewPorts:
                       xs:
@@ -294,6 +283,8 @@ renderables:
                         numbersOfColumnsToUse: '3'
                       lg:
                         numbersOfColumnsToUse: '3'
+                  fluidAdditionalAttributes:
+                    placeholder: Straßenzusatz
           -
             defaultValue: ''
             type: Telephone
@@ -301,7 +292,7 @@ renderables:
             label: Telefon
             properties:
               fluidAdditionalAttributes:
-                
+                placeholder: Telefon
           -
             defaultValue: ''
             type: Telephone
@@ -309,7 +300,7 @@ renderables:
             label: Mobile
             properties:
               fluidAdditionalAttributes:
-                
+                placeholder: Mobile
           -
             defaultValue: ''
             type: Email
@@ -318,7 +309,7 @@ renderables:
             properties:
               fluidAdditionalAttributes:
                 required: required
-                
+                placeholder: E-Mail
               validationErrorMessages:
                 -
                   code: 1221560910
@@ -348,7 +339,7 @@ renderables:
             properties:
               fluidAdditionalAttributes:
                 required: required
-                
+                placeholder: 'Ihre Nachricht an uns.'
               validationErrorMessages:
                 -
                   code: 1221560910

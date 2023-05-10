@@ -2,7 +2,7 @@
     <div class="carousel-item {f:if(condition:'{indicator-2.isFirst}',then:' active')}">
         <f:for each="{data_item.tx_mask_slideitem}" as="file">
             <ai:ratioBox file="{file}" mediaQueries="{slidermobile: '(max-width:767px)', sliderdesktop: '(min-width:768px)'}">
-                <picture class="loader img-filter">
+                <picture class="loader img-filter position-absolute">
                       <source media="(max-width: 767px)"
                               data-srcset="{ai:getSrcset(file:file, cropVariant: 'slidermobile', widths:'360,480,580,660,768', debug:debug)}"
                               srcset="{ai:placeholder.svg(file: file, cropVariant: 'slidermobile')} 1w"

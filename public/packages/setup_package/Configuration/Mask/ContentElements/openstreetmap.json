@@ -1,5 +1,5 @@
 {
-    "version": "7.2.0",
+    "version": "8.1.0",
     "tables": {
         "tt_content": {
             "elements": {
@@ -70,9 +70,10 @@
                 },
                 "tx_mask_latitudeinput": {
                     "config": {
-                        "eval": "required,nospace",
+                        "eval": "nospace",
                         "max": "9",
                         "placeholder": "z.B. 47.849900",
+                        "required": 1,
                         "size": "10",
                         "type": "input"
                     },
@@ -82,9 +83,9 @@
                 },
                 "tx_mask_longitudeinput": {
                     "config": {
-                        "eval": "required",
                         "max": "9",
                         "placeholder": "z.B. 12.058030",
+                        "required": 1,
                         "size": "10",
                         "type": "input"
                     },
@@ -95,30 +96,34 @@
                 "tx_mask_zoom": {
                     "config": {
                         "items": [
-                            [
-                                "14",
-                                "14",
-                                "",
-                                ""
-                            ],
-                            [
-                                "15",
-                                "15",
-                                "",
-                                ""
-                            ],
-                            [
-                                "16",
-                                "16",
-                                "",
-                                ""
-                            ],
-                            [
-                                "17",
-                                "17",
-                                "",
-                                ""
-                            ]
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "14",
+                                "value": "14"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "15",
+                                "value": "15"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "16",
+                                "value": "16"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "17",
+                                "value": "17"
+                            }
                         ],
                         "maxitems": "1",
                         "minitems": "1",

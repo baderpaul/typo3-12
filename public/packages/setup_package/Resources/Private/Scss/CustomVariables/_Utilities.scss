@@ -39,6 +39,9 @@ $utilities: map-merge($utilities, ("opacity": map-merge(map-get($utilities, "opa
     ),
     "background-color": (property: background-color,
       class: bg,
+      local-vars: (
+            "bg-opacity": 1
+          ),
       values: map-merge($utilities-bg-colors,
         ("body": $body-bg,
           "white": $white,
@@ -48,6 +51,7 @@ $utilities: map-merge($utilities, ("opacity": map-merge(map-get($utilities, "opa
           "rgba-coal-90": rgba(0, 0, 0, .9),
           "rgba-white": rgba(255, 255, 255, .1),
         ))),
+
     "bg-opacity": map-merge(map-get($utilities, "bg-opacity"),
       (css-var: true,
         class: bg-opacity,

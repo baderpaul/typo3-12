@@ -1,8 +1,8 @@
-#RTE.default.preset = custom
+RTE.default.preset = custom
 #RTE.default.proc.overruleMode = default
 RTE.default.proc.allowTagsOutside = hr, header, div
-#RTE.config.tt_content.tx_mask_content.types.mask_bticonteaser.preset = mask
-#RTE.config.tx_news_domain_model_news.bodytext.preset = news
+RTE.config.tt_content.tx_mask_content.types.mask_bticonteaser.preset = mask
+RTE.config.tx_news_domain_model_news.bodytext.preset = news
 
 # Show the content element wizard with tabs (for consistency)
 mod.wizards.newContentElement.renderMode = tabs
