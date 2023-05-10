@@ -61,7 +61,7 @@
 		"georgringer/news": "^11.0",
 		"c1/c1-adaptive-images": "^1.0",
 		"tpwd/ke_search": "dev-master",
-		"plan2net/webp": "dev-master",
+		"plan2net/webp": "^5.0",
 		"techdivision/setup-package": "^2.0"
 	}
 }

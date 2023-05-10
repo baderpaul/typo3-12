@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8447aa32a1a9c7d9f2580aacfa1fca84",
+    "content-hash": "60d1caf924e7c9713f3032c34fde2ec7",
     "packages": [
         {
             "name": "b13/container",
@@ -2251,7 +2251,7 @@
         },
         {
             "name": "plan2net/webp",
-            "version": "dev-master",
+            "version": "5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/plan2net/webp.git",
@@ -2273,7 +2273,6 @@
             "suggest": {
                 "ext-gd": "Use GD for image processing"
             },
-            "default-branch": true,
             "type": "typo3-cms-extension",
             "extra": {
                 "typo3/cms": {
@@ -8369,8 +8368,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "typo3/cms-styleguide": 20,
-        "tpwd/ke_search": 20,
-        "plan2net/webp": 20
+        "tpwd/ke_search": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
