@@ -6,7 +6,7 @@ imports:
 editor:
   externalPlugins:
     setup_package_table:
-      resource: "EXT:setup_package/Resources/Public/CKEditor/Plugins/Table/plugin.min.js"
+      resource: "EXT:setup_package/Resources/Public/CKEditor/Plugins/Table/plugin.js"
   config:
     contentsCss: "EXT:setup_package/Resources/Public/Styles/CkEditor.css"
     toolbar:
@@ -36,7 +36,9 @@ editor:
         - specialCharacters
         - horizontalLine
         - "|"
+        - table
         - insertTable
+        - tableToolbar
         - tableProperties
         - tableRow
         - tableColumn
