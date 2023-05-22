@@ -13,6 +13,7 @@ page.10 {
 
             default = TEXT
             default.value = Default
+            default.insertData = 1
 
             pagets__default_main = TEXT
             pagets__default_main.value = Main
