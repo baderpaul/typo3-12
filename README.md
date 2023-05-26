@@ -70,8 +70,8 @@
 * Youtubevideos - Einbindung DSGVO
 
 ## Default Extensions
-* Container 2.1  
-* Mask (individuelle CE) 8.1.1
+* Container 2.2  
+* Mask (individuelle CE) 8.1.3
 * News 11.0
 * Ke_Search dev-master
 * c1-adaptive-images 21.0
@@ -86,7 +86,7 @@
 * https://github.com/paravista/custom_content_element
 * update 8.7 -> 10.4 
     - http://www.mtug.de/fileadmin/files/2020/mtug_2020-07-07_TYPO3-Upgrade.pdf
-* Migration Gridelements to Container da gibt es eine Ext: gridtocontainer bis TYPO3 10.4
+* Migration Gridelements to Container --> Ext: gridtocontainer bis TYPO3 10.4
 * Lokale Entwicklungsumgebung mit ddev
     - https://typo3.com/blog/tutorial-get-a-local-typo3-v10-installation-with-no-effort?utm_campaign=TYPO3%20CMS%20X&utm_medium=TYPO3%20Blog&utm_source=Blog%20post%20-%20Tutorial%3A%20Get%20a%20Local%20TYPO3%20v10%20Installation%20With%20No%20Effort%21
 * TYPO3 10.4 Siteexample -> https://github.com/o-ba/typo3v10_example_sitepackage/
