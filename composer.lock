@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a9b2d1a15def1b06ecce4365b014fc92",
+    "content-hash": "8413c0758ed2b6319a6aae7c2bd60750",
     "packages": [
         {
             "name": "b13/container",
@@ -5781,16 +5781,16 @@
         },
         {
             "name": "tpwd/ke_search",
-            "version": "dev-master",
+            "version": "v5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tpwd/ke_search.git",
-                "reference": "b09c20b8455f0d9477baf39b3a80c712c5d47ba4"
+                "reference": "7b7e93297ab47ed230676ebeff88479fd46627bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tpwd/ke_search/zipball/b09c20b8455f0d9477baf39b3a80c712c5d47ba4",
-                "reference": "b09c20b8455f0d9477baf39b3a80c712c5d47ba4",
+                "url": "https://api.github.com/repos/tpwd/ke_search/zipball/7b7e93297ab47ed230676ebeff88479fd46627bd",
+                "reference": "7b7e93297ab47ed230676ebeff88479fd46627bd",
                 "shasum": ""
             },
             "require": {
@@ -5812,13 +5812,13 @@
                 "phpunit/phpunit": "^8.5 || ^9.5",
                 "ssch/typo3-rector": "^1.1",
                 "typo3/cms-dashboard": "^11.0 || ^12.0",
+                "typo3/cms-info": "^11.0 || ^12.0",
                 "typo3/cms-install": "^11.0 || ^12.0",
                 "typo3/coding-standards": "^0.5.5"
             },
             "suggest": {
                 "typo3/cms-dashboard": "Use widgets in dashboard"
             },
-            "default-branch": true,
             "type": "typo3-cms-extension",
             "extra": {
                 "typo3/cms": {
@@ -5850,9 +5850,9 @@
             ],
             "support": {
                 "issues": "https://github.com/tpwd/ke_search/issues",
-                "source": "https://github.com/tpwd/ke_search/tree/master"
+                "source": "https://github.com/tpwd/ke_search/tree/v5.0.0"
             },
-            "time": "2023-04-28T07:32:38+00:00"
+            "time": "2023-05-26T11:38:21+00:00"
         },
         {
             "name": "typo3/class-alias-loader",
@@ -7835,77 +7835,6 @@
             "time": "2023-05-09T08:21:18+00:00"
         },
         {
-            "name": "typo3/cms-styleguide",
-            "version": "12.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TYPO3/styleguide.git",
-                "reference": "463d5cd56260ea593ac7d351b1f88c4788249fbb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/styleguide/zipball/463d5cd56260ea593ac7d351b1f88c4788249fbb",
-                "reference": "463d5cd56260ea593ac7d351b1f88c4788249fbb",
-                "shasum": ""
-            },
-            "require-dev": {
-                "codeception/codeception": "^5.0",
-                "codeception/module-asserts": "^3.0",
-                "codeception/module-cli": "^2.0",
-                "codeception/module-webdriver": "^4.0",
-                "friendsofphp/php-cs-fixer": "^3.16.0",
-                "phpstan/phpstan": "^1.10.14",
-                "typo3/cms-core": "~12.4@dev",
-                "typo3/cms-frontend": "~12.4@dev",
-                "typo3/cms-install": "~12.4@dev",
-                "typo3/testing-framework": "^8.0"
-            },
-            "type": "typo3-cms-extension",
-            "extra": {
-                "typo3/cms": {
-                    "app-dir": ".Build",
-                    "web-dir": ".Build/Web",
-                    "extension-key": "styleguide"
-                },
-                "branch-alias": {
-                    "dev-main": "12.x.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "TYPO3\\CMS\\Styleguide\\": "Classes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "TYPO3 CMS Core Team",
-                    "homepage": "https://forge.typo3.org/projects/typo3cms-core",
-                    "role": "Developer"
-                },
-                {
-                    "name": "The TYPO3 Community",
-                    "homepage": "https://typo3.org/community/",
-                    "role": "Contributor"
-                }
-            ],
-            "description": "TYPO3 extension to showcase TYPO3 Backend capabilities",
-            "homepage": "https://github.com/TYPO3/styleguide",
-            "keywords": [
-                "style guide",
-                "typo3",
-                "typo3 backend"
-            ],
-            "support": {
-                "issues": "https://github.com/TYPO3/styleguide/issues",
-                "source": "https://github.com/TYPO3/styleguide/tree/main"
-            },
-            "time": "2023-05-04T16:55:02+00:00"
-        },
-        {
             "name": "typo3/cms-sys-note",
             "version": "v12.4.1",
             "source": {
@@ -8360,10 +8289,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "typo3/cms-styleguide": 20,
-        "tpwd/ke_search": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

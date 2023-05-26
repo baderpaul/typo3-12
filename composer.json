@@ -55,7 +55,6 @@
 		"typo3/cms-viewpage": "^12.4",
 		"typo3/cms-linkvalidator": "^12.4",
 		"typo3/cms-form": "^12.4",
-		"typo3/cms-styleguide": "12.x-dev",
 		"b13/container": "^2.2",
 		"mask/mask": "^8.1",
 		"georgringer/news": "^11.0",
