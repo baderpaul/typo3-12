@@ -15042,19 +15042,12 @@ textarea.form-control-lg {
 
 .submenu {
   font-size: 1.125rem; }
-  .submenu li .active a {
-    font-weight: bold;
-    text-decoration: none;
-    border: solid red 1px;
-    /* &:hover {
-         @extend .bg-rgba-white;
-     }*/ }
+  .submenu li .active a,
   .submenu li .current a {
     font-weight: bold;
-    text-decoration: none;
-    /* &:hover {
-         @extend .bg-rgba-white;
-     }*/ }
+    text-decoration: none; }
+  .submenu li a {
+    color: #ffffff; }
 
 .img-filter {
   filter: brightness(60%); }
