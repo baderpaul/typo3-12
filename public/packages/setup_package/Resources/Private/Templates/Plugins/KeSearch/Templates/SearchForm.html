@@ -8,7 +8,7 @@
 Templates/SearchForm.html
 --></f:comment>
 <f:section name="content">
-	<form method="get" class="searchbox form-inline mt-20 mt-lg-0 me-lg-20" id="form_kesearch_pi1" name="form_kesearch_pi1"  action="{f:uri.page(pageUid:targetpage)}">
+	<form method="get" class="searchbox form-inline mt-20 mt-lg-0 me-lg-20" id="form_kesearch_pi1" name="form_kesearch_pi1"  action="{targetPageUrl}">
 		<div class="input-group pb-20 pb-lg-0">
 		<f:comment><!-- Replace the URL with the speaking URL --></f:comment>
 		<f:if condition="{isEmptySearch} == FALSE">

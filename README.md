@@ -73,7 +73,7 @@
 * Container 2.2  
 * Mask (individuelle CE) 8.1.3
 * News 11.0
-* Ke_Search dev-master
+* Ke_Search 5.0
 * c1-adaptive-images 21.0
 * webp 5.0.1
 * TYPO3 Console 8.0 / TYPO3 v12 -> wird über composer installiert -> "helhum/typo3-console": "^8.0",

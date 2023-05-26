@@ -60,7 +60,7 @@
 		"mask/mask": "^8.1",
 		"georgringer/news": "^11.0",
 		"c1/c1-adaptive-images": "^1.0",
-		"tpwd/ke_search": "dev-master",
+		"tpwd/ke_search": "^5.0",
 		"plan2net/webp": "^5.0",
 		"techdivision/setup-package": "^2.0"
 	}
