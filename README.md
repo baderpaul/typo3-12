@@ -71,7 +71,7 @@
 
 ## Default Extensions
 * Container 2.2  
-* Mask (individuelle CE) 8.1.3
+* Mask (individuelle CE) 8.1.5
 * News 11.0
 * Ke_Search 5.0
 * c1-adaptive-images 21.0
