@@ -60,8 +60,8 @@
 * Redirects
 * PageTs kann über Resources hinzugefügt werden.
  
-# Systemlinks mit ddev
-* Local-System: http://typo3-12.ddev.site/
+# Local
+* http://typo3-12.ddev.site/
 
 ## ToDoes/Probleme/Missing
 * Benutzer und Gruppen anlegen
