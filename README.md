@@ -92,4 +92,3 @@
 * TYPO3 10.4 Siteexample -> https://github.com/o-ba/typo3v10_example_sitepackage/
 * TYPO3 Demopage Code -> gitlab
     - https://gitlab.typo3.org/services/demo.typo3.org/site
-* webp - https://www.dpool.com/blog/index.php/2020/07/10/typo3-in-15-minuten-webp-faehig-machen/
