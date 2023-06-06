@@ -45,7 +45,7 @@
     - Breadcrumb - kann für einzelne Seite deaktiviert werden
     - Socialmedianavigation/Mask - kann mit Icons oder BT Icon Font verwendet werden
 * Responsive Images mit Picture Tag + Crop Funktion + Lazyloading mit https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js
-* Default Form Modul // Setup mit HTML5 Validation default und Bootstrap Flying Labels
+* Default Form Modul // Setup mit HTML5 Validation und Bootstrap Flying Labels
 * Cards/Mask - BT 5 + Images Crop Funktion
 * Accordion/Mask - BT 5
 * Tabs/Mask - BT 5
@@ -76,11 +76,11 @@
 * Ke_Search 5.0
 * c1-adaptive-images 21.0
 * webp 5.0.1
+* typo3-dp_cookieconsent 12.0
 * TYPO3 Console 8.0 / TYPO3 v12 -> wird über composer installiert -> "helhum/typo3-console": "^8.0",
 
 ## Noch fehlende Extensions TYPO3 12.4
 * femanager // TYPO3 11.5
-* dp_cookieconsent -> derzeit noch TYPO3 11.5 // Fluidtemplates bereits vorhanden
 
 ## Input/Infos Links
 * https://github.com/paravista/custom_content_element
