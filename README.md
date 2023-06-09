@@ -65,7 +65,7 @@
 
 ## ToDoes/Probleme/Missing
 * Benutzer und Gruppen anlegen
-* Lightbox mit reinem Css ersetzen
+* Lightbox mit reinem CSS ersetzen
 * SVG Pfad zu sprite von fluid zu Typoscript auslagern??
 * Youtubevideos - Einbindung DSGVO
 
