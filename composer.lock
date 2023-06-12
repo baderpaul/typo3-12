@@ -1886,16 +1886,16 @@
         },
         {
             "name": "mask/mask",
-            "version": "v8.1.6",
+            "version": "v8.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Gernott/mask.git",
-                "reference": "266a2af7c1668164a500a437aaac79c6aecd3d0f"
+                "reference": "9f0004557458ef37d77db63843f845718e4cbc44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Gernott/mask/zipball/266a2af7c1668164a500a437aaac79c6aecd3d0f",
-                "reference": "266a2af7c1668164a500a437aaac79c6aecd3d0f",
+                "url": "https://api.github.com/repos/Gernott/mask/zipball/9f0004557458ef37d77db63843f845718e4cbc44",
+                "reference": "9f0004557458ef37d77db63843f845718e4cbc44",
                 "shasum": ""
             },
             "require": {
@@ -1978,7 +1978,7 @@
                     "type": "WEBprofil - Gernot Ploiner e.U. (Founder)"
                 }
             ],
-            "time": "2023-06-08T10:13:05+00:00"
+            "time": "2023-06-10T20:32:23+00:00"
         },
         {
             "name": "masterminds/html5",
