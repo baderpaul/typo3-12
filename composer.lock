@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "b13/container",
-            "version": "2.2.2",
+            "version": "2.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/b13/container.git",
-                "reference": "9170f72d757a602211ffbb41e21ed84c7800fa62"
+                "reference": "dcbcad029995455487753aaa52ecf6a9b5f08392"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/b13/container/zipball/9170f72d757a602211ffbb41e21ed84c7800fa62",
-                "reference": "9170f72d757a602211ffbb41e21ed84c7800fa62",
+                "url": "https://api.github.com/repos/b13/container/zipball/dcbcad029995455487753aaa52ecf6a9b5f08392",
+                "reference": "dcbcad029995455487753aaa52ecf6a9b5f08392",
                 "shasum": ""
             },
             "require": {
@@ -65,9 +65,9 @@
             "homepage": "https://b13.com",
             "support": {
                 "issues": "https://github.com/b13/container/issues",
-                "source": "https://github.com/b13/container/tree/2.2.2"
+                "source": "https://github.com/b13/container/tree/2.2.3"
             },
-            "time": "2023-05-05T09:36:30+00:00"
+            "time": "2023-06-14T08:47:27+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -1059,16 +1059,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.5.0",
+            "version": "v6.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "e94e7353302b0c11ec3cfff7180cd0b1743975d2"
+                "reference": "5a9cf79b4a2eb347230384648cc7b0d68cd97faa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/e94e7353302b0c11ec3cfff7180cd0b1743975d2",
-                "reference": "e94e7353302b0c11ec3cfff7180cd0b1743975d2",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/5a9cf79b4a2eb347230384648cc7b0d68cd97faa",
+                "reference": "5a9cf79b4a2eb347230384648cc7b0d68cd97faa",
                 "shasum": ""
             },
             "require": {
@@ -1116,9 +1116,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.5.0"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.6.0"
             },
-            "time": "2023-05-12T15:47:07+00:00"
+            "time": "2023-06-13T17:11:06+00:00"
         },
         {
             "name": "friendsoftypo3/fontawesome-provider",
@@ -1890,16 +1890,16 @@
         },
         {
             "name": "mask/mask",
-            "version": "v8.2.0",
+            "version": "v8.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Gernott/mask.git",
-                "reference": "9f0004557458ef37d77db63843f845718e4cbc44"
+                "reference": "3bdd7e3f4e5ce2eff06dc6c3608163b44a7d1474"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Gernott/mask/zipball/9f0004557458ef37d77db63843f845718e4cbc44",
-                "reference": "9f0004557458ef37d77db63843f845718e4cbc44",
+                "url": "https://api.github.com/repos/Gernott/mask/zipball/3bdd7e3f4e5ce2eff06dc6c3608163b44a7d1474",
+                "reference": "3bdd7e3f4e5ce2eff06dc6c3608163b44a7d1474",
                 "shasum": ""
             },
             "require": {
@@ -1982,7 +1982,7 @@
                     "type": "WEBprofil - Gernot Ploiner e.U. (Founder)"
                 }
             ],
-            "time": "2023-06-10T20:32:23+00:00"
+            "time": "2023-06-14T10:10:06+00:00"
         },
         {
             "name": "masterminds/html5",
