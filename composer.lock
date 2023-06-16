@@ -1059,16 +1059,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.6.0",
+            "version": "v6.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "5a9cf79b4a2eb347230384648cc7b0d68cd97faa"
+                "reference": "71278f20b0a623389beefe87a641d03948a38870"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/5a9cf79b4a2eb347230384648cc7b0d68cd97faa",
-                "reference": "5a9cf79b4a2eb347230384648cc7b0d68cd97faa",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/71278f20b0a623389beefe87a641d03948a38870",
+                "reference": "71278f20b0a623389beefe87a641d03948a38870",
                 "shasum": ""
             },
             "require": {
@@ -1116,9 +1116,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.6.0"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.7.0"
             },
-            "time": "2023-06-13T17:11:06+00:00"
+            "time": "2023-06-14T15:29:26+00:00"
         },
         {
             "name": "friendsoftypo3/fontawesome-provider",
@@ -1890,16 +1890,16 @@
         },
         {
             "name": "mask/mask",
-            "version": "v8.2.1",
+            "version": "v8.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Gernott/mask.git",
-                "reference": "3bdd7e3f4e5ce2eff06dc6c3608163b44a7d1474"
+                "reference": "b1933050c5c0479473d7cca0510a3604e848fc11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Gernott/mask/zipball/3bdd7e3f4e5ce2eff06dc6c3608163b44a7d1474",
-                "reference": "3bdd7e3f4e5ce2eff06dc6c3608163b44a7d1474",
+                "url": "https://api.github.com/repos/Gernott/mask/zipball/b1933050c5c0479473d7cca0510a3604e848fc11",
+                "reference": "b1933050c5c0479473d7cca0510a3604e848fc11",
                 "shasum": ""
             },
             "require": {
@@ -1982,7 +1982,7 @@
                     "type": "WEBprofil - Gernot Ploiner e.U. (Founder)"
                 }
             ],
-            "time": "2023-06-14T10:10:06+00:00"
+            "time": "2023-06-16T07:23:05+00:00"
         },
         {
             "name": "masterminds/html5",
