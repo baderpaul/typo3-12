@@ -1,6 +1,27 @@
 # Navigations
 page.10.dataProcessing {
-   
+#Languagenav
+    #5 = TYPO3\CMS\Frontend\DataProcessing\LanguageMenuProcessor
+    #5 {
+    #    languages = auto
+    #    as = languageMenu
+    #}
+
+    #7 = TYPO3\CMS\Frontend\DataProcessing\LanguageMenuProcessor
+    #7 {
+    #    languages = auto
+    #    as = languageflagMenu
+    #}
+#Topnav SlideoutMobileOverlap
+#    12 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+#    12 {
+#        special = directory
+#        special.value = 1
+#        expandAll = 1
+#        levels = 10
+#        includeSpacer = 0
+#        as = menuMainMobileOverlap
+#    }    
 # Topnav Megamenu
     15 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
     15 {
@@ -11,6 +32,7 @@ page.10.dataProcessing {
         includeSpacer = 0
         as = menuMainMega
     }
+
 #Sidenav
     20 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
     20 {
@@ -31,7 +53,14 @@ page.10.dataProcessing {
         special = rootline
         special.range = 0|-1
     }
-
+#Servicenav
+#    30 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+#    30 {
+#        levels = 1
+#        special = directory
+#        special.value = 7
+#        as = menuService
+#   }
 # Sectionnav
     50 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
     50 {
@@ -66,4 +95,25 @@ page.10.dataProcessing {
             }
         }
     }
+#Footernav
+    #70 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+    #70 {
+    #    special = directory
+    #    special.value = 1
+    #    expandAll = 1
+    #    levels = 2
+    #    includeSpacer = 0
+    #    as = menuFooter
+   #}
+
+#OffCanvasnav
+    #80 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+    #80 {
+     #   special = directory
+    #   special.value = 1
+    #    expandAll = 1
+    #    levels = 10
+     #   includeSpacer = 0
+    #    as = menuOffCanvasNav
+    #}
 }

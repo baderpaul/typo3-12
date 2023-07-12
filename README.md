@@ -4,7 +4,7 @@
 
 ## Environment
 * Webserver nginx/1.22.0
-* TYPO3 12.4.1
+* TYPO3 12.4.3
 * PHP 8.1.11
 * MySQL 10.4.26-MariaDB-1:10.4.26+maria~ubu2004-log 
 
@@ -72,7 +72,7 @@
 ## Default Extensions
 * Container 2.2  
 * Mask (individuelle CE) 8.1.6
-* News 11.0
+* News 11.1
 * Ke_Search 5.0
 * c1-adaptive-images 21.0
 * webp 5.0.1
