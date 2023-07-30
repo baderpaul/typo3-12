@@ -5,7 +5,7 @@
 ## Environment
 * Webserver nginx/1.22.0
 * TYPO3 12.4.3
-* PHP 8.1.11
+* PHP 8.2.ORC3
 * MySQL 10.4.26-MariaDB-1:10.4.26+maria~ubu2004-log 
 
 ## Setup Infos
