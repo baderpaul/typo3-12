@@ -55,7 +55,7 @@
 		"typo3/cms-viewpage": "^12.4",
 		"typo3/cms-linkvalidator": "^12.4",
 		"typo3/cms-form": "^12.4",
-		"b13/container": "^2.2",
+		"b13/container": "^2.3",
 		"mask/mask": "^8.1",
 		"georgringer/news": "^11.0",
 		"c1/c1-adaptive-images": "^1.0",
